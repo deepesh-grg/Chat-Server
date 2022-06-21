@@ -54,7 +54,7 @@ use in the implementation of chat server. I also learnt about
 the concept and implementation of mutex in this project. 
 ## Additional Tasks
  
-Chat room server is implemented from the concepts of socket 		   programming and multi-threading. 
+Chat room server is implemented by using the concepts of socket 		   programming and multi-threading. 
 
 The concept of mutex has been used while adding and 
 removing clients from the chat room for proper synchronization. 
