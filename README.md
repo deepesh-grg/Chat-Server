@@ -29,7 +29,7 @@ To operate for multiple clients, Open new terminal and type
 The application consists of server and clients which are
  connected to each other by sockets. 
 
-## Server 
+# Server 
 The server is supposed to show the activity of various
 clients in the chat room. On executing the server code,
 the socket is created. Then the bind socket and listen socket
@@ -39,12 +39,14 @@ om the client, a new thread is created. And the msg_broadcast
 function is used to send the messages of one client to all 
 other clients. 
 
-## Client 
+# Client 
 The client side first request to join the server by 
 entering a unique username. After this, a socket is created,
 and the client is ready to interact with all the other clients.
 The entry of each new client is displayed on the server.
 The client can exit the chat room by typing “#exit”. 
+
+
 ## Learnings
 During the course of this project, I became familiar with the 
 concepts of socket programming and multi-threading and their 
