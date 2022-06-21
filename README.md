@@ -60,6 +60,8 @@ The concept of mutex has been used while adding and
 removing clients from the chat room for proper synchronization. 
 
 The client can exit the chat room by typing “#exit”. 
+
+Entry and Exit of clients is color coded.
 ## Video Demo
 
 
